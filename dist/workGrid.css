@@ -1,0 +1,91 @@
+body {
+  background: white;
+  color: black;
+  font-family: "Nunito", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+  border-left: 3em rgba(0, 23, 31, 1) solid;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#logo {
+  padding-top: 2em;
+  max-width: 30%;
+}
+
+.mainNav #menu {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 0em;
+}
+
+.mainNav #menu .dropdown-item {
+  line-height: 1em;
+}
+
+h1 {
+  font-family: "serenity", "Times New Roman", Times, serif;
+  font-weight: 800;
+  flex-grow: 3;
+}
+
+h5 {
+  font-family: "serenity", "Times New Roman", Times, serif;
+  color: rgba(246, 94, 60, 1);
+  font-weight: bold;
+  margin-top: 2px;
+}
+
+.workHead {
+  padding-top: 1em;
+  font-size: 9em;
+  color: rgba(246, 94, 60, 1);
+}
+
+.read {
+  font-weight: bold;
+  font-size: 1em;
+}
+span {
+  color: rgb(0, 100, 200);
+  font-weight: bold;
+}
+
+.sub {
+  font-size: 2em;
+  padding: 1.5em 2em 5em 0.5em;
+}
+/* RESTYLE ERTHANG BASICALLY */
+.container {
+  display: grid;
+  grid-gap: 1.4em;
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
+  /* Nice responsiveness */
+  grid-auto-rows: auto;
+  grid-auto-flow: dense;
+}
+
+a {
+  border-bottom: none;
+}
+img {
+  object-fit: cover;
+  width: 100%;
+}
+
+img:hover {
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.4);
+}
+
+.horizontal {
+  grid-column: auto / span 4;
+}
+
+.important {
+  grid-column: auto/ span 3;
+}

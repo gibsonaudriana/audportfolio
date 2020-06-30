@@ -1,0 +1,22 @@
+// MEDIA QUERIES
+// Tablets and Smaller
+
+@media (max-width: 800px) {
+  .name {
+    opacity: 0;
+  }
+  .homeNav #menu {
+    font-size: 12px;
+    flex-wrap: wrap-reverse;
+  }
+
+  .mainNav #menu {
+    font-size: 12px;
+    flex-wrap: wrap-reverse;
+    line-height: 1px;
+  }
+
+  .workButton {
+    font-size: 2px;
+  }
+}

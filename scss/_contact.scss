@@ -1,0 +1,65 @@
+// CONTACT
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  .mainNav {
+    margin: 0em;
+  }
+}
+
+.container {
+  margin-bottom: 10em;
+  padding-bottom: 2em 1em 2em 2em;
+
+  .contactTitle {
+    color: $light-color;
+    font-size: 7em;
+    margin-top: 0;
+    margin-left: 1.5em;
+  }
+
+  #contact {
+    &-a {
+      .contactInfo {
+        display: grid;
+        margin-top: 3rem;
+        margin-bottom: 4em;
+        padding: 4em 6em 4em 6em;
+        grid-gap: 1rem;
+        grid-template-columns: repeat(3, 1fr);
+        // Indicates four even columns
+
+        .fas {
+          color: $main-color;
+          padding-bottom: 0.4rem;
+        }
+
+        h2 {
+          font-size: 4.5em;
+          color: $medium-color;
+        }
+        .resume {
+          text-decoration: none;
+          margin-top: 0.8em;
+          font-size: 3em;
+
+          &:hover a {
+            background-color: rgba($light-color, $alpha: 0.4);
+            border-radius: 4px;
+            border-color: transparent;
+            transition: background-color 0.5s;
+            padding: 0.5em 0.5em 0.5em 0.5em;
+          }
+        }
+      }
+    }
+  }
+}
+
+footer {
+  padding: 0;
+  margin-top: 6em;
+}

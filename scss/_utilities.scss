@@ -1,0 +1,110 @@
+$website-width: 1280px;
+$main-color: rgba(148, 209, 190, 1);
+$home-color: rgba(0, 23, 31, 1);
+$medium-color: rgb(0, 100, 200);
+$light-color: rgba(246, 94, 60, 1);
+$dark-color: #ccc;
+$image: url(/dist/img/headshot.png);
+// padding and margins (COPY FROM LESSONS)
+
+h1 {
+  font-family: "Nunito", "Times New Roman", Times, serif;
+}
+
+h2,
+h3,
+h4 {
+  font-family: "Serenity", "Times New Roman", Times, serif;
+  font-weight: 800;
+}
+
+.dropdown {
+  padding-top: 24px;
+  margin: 0;
+
+  .btn,
+  .btn-secondary,
+  .btn-sm {
+    // display: inline-block;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    color: $light-color;
+    border: none;
+    font-size: 30px;
+    font-weight: 700;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    padding: 0px 0px 8px;
+
+    &:hover {
+      background-color: $medium-color;
+    }
+  }
+}
+a {
+  text-decoration: none;
+  color: $medium-color;
+  text-transform: uppercase;
+  border-bottom: 3px transparent solid;
+  // BB allows underline to fade in upon hover rather than just pop up
+  padding-bottom: 0.5rem;
+  transition: border-color 0.5s;
+
+  &:hover {
+    border-color: $main-color;
+  }
+  &.current {
+    border-color: $medium-color;
+  }
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  list-style-type: none;
+  padding: 1em 1em 1em;
+}
+
+.text-center {
+  text-align: center;
+  text-decoration: none;
+}
+
+.empty {
+  opacity: 0%;
+  margin: 0;
+  padding: 0;
+}
+
+// .fl {
+//   color: red;
+// }
+
+.subhead {
+  font-size: 6em;
+  font-family: "serenity", "Times New Roman", Times, serif;
+  // find NEW FONT
+  margin-top: 0.5em;
+  color: #000;
+}
+
+// Footer
+#mainFooter {
+  display: flex;
+  font-size: 0.9em;
+  flex-direction: column;
+  background-color: $light-color;
+  color: #fff;
+  height: 3em;
+
+  .footerContainer {
+    margin-top: auto;
+  }
+
+  p {
+    padding: 1em 1em 1em 1em;
+  }
+}

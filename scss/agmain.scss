@@ -1,0 +1,276 @@
+@import "utilities";
+@import "contact";
+@import "media";
+
+body {
+  background: $home-color;
+  font-size: 12px;
+  font-family: "Nunito", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+  color: white;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 1em;
+  // background-image: $image;
+  // background-size: cover;
+  padding: 1em 1em 1em 1em;
+
+  .homeContact {
+    background: white;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.name {
+  font-size: 16em;
+  font-family: "kazmir", "Gill Sans", "Gill Sans MT", "Times New Roman", Times,
+    serif, "Trebuchet MS", sans-serif;
+  color: white;
+  font-weight: 300;
+  line-height: 0.8em;
+  color: white;
+  position: absolute;
+  margin-top: 0.3em;
+
+  span {
+    display: inline-block;
+    margin-bottom: 0.3em;
+    font-size: 1.4em;
+    font-weight: 700;
+    line-height: 0.9em;
+    transform: rotate(180deg);
+
+    .periodtt {
+      display: inline;
+      color: $light-color;
+      margin: 0px;
+      padding: 0px;
+      right: 0em;
+      left: 0em;
+    }
+  }
+  // ADD QUERIES!
+}
+
+// Header and Navs (diff on landing page)
+
+.homeNav {
+  display: flex;
+  border-radius: 5px;
+  font-family: "Nunito", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  justify-content: space-between;
+  margin-top: 0.5em;
+
+  #menu {
+    display: flex;
+    margin-top: 0.5em;
+    padding: 0 1em 0em 1em;
+    font-size: 2.3em;
+    text-decoration: none;
+
+    a {
+      color: $light-color;
+    }
+  }
+
+  img {
+    width: 100%;
+  }
+
+  #logo {
+    width: 10em;
+    height: 10em;
+    transform: rotate(-10deg);
+  }
+}
+
+// MainNav
+.mainNav {
+  display: flex;
+  border-right: 1em solid $light-color;
+  font-family: "Nunito", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  justify-content: flex-end;
+  margin-top: 0.5em;
+  margin-bottom: 0;
+
+  #menu {
+    display: flex;
+    margin-top: 1em;
+    padding: 0 1em 0em 1em;
+    font-size: 2.4em;
+    text-decoration: none;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  #logo {
+    width: 16em;
+    height: 18em;
+    transform: rotate(-10deg);
+  }
+}
+
+aside {
+  .asideContainer {
+    position: relative;
+  }
+  .mainBlurb {
+    color: $main-color;
+    font-family: "Kazimir", Arial, Helvetica, sans-serif;
+    font-size: 2.5em;
+    text-align: right;
+    margin-right: 3.3em;
+    margin-top: 2em;
+    margin-bottom: 7em;
+    padding-top: 2em;
+    padding-left: 2em;
+
+    .txt-type {
+      color: white;
+    }
+
+    .title2 {
+      font-size: 2em;
+      color: white;
+    }
+  }
+
+  .workButton {
+    line-height: 2em;
+    color: $medium-color;
+    font-size: 1.7em;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding-left: 2em;
+    font-family: "serenity", Arial, Helvetica, sans-serif;
+
+    &:hover {
+      border-color: transparent;
+      background-color: $light-color;
+      border-radius: 5px;
+      transition: background-color 0.5s;
+      padding: 2px 4px 2px 4px;
+    }
+  }
+}
+
+// About
+section {
+  .mainNav {
+    width: 100%;
+    background-color: white;
+    border-radius: 0px;
+    border-right: 1em solid $medium-color;
+    border-width: 1em;
+  }
+  .aboutContainer {
+    background-color: white;
+    // background-color: $dark-color;
+    // border-radius: 5px;
+    display: grid;
+    grid-template-columns: 2fr 2fr 4fr 2fr;
+    grid-template-areas:
+      "title title  . ."
+      "logo logo  bio bio"
+      ". . about about";
+    grid-gap: 1em;
+    overflow: hidden;
+    padding: 2em 4em 2em;
+    border-left: 1em solid $medium-color;
+    // margin-top: 2em;
+    margin-bottom: 0;
+
+    #aboutTitle {
+      margin-top: 0;
+      margin-bottom: 7px;
+      font-size: 9em;
+      grid-area: title;
+      color: $light-color;
+    }
+
+    .bioimg {
+      max-width: 100%;
+      grid-area: logo;
+      border: rgba(0, 23, 31, 1) 6px dotted;
+      border-radius: 400px;
+    }
+
+    .bio {
+      color: $home-color;
+      padding-left: 2em;
+      margin-top: 1em;
+      font-size: 2em;
+      grid-area: bio;
+      text-align: right;
+
+      p {
+        text-align: center;
+
+        .resumeLink {
+          text-transform: lowercase;
+          color: rgba(246, 94, 60, 1);
+        }
+      }
+    }
+
+    h4 {
+      color: $medium-color;
+      grid-area: about;
+      margin-top: 2em;
+      padding-top: 1em;
+      text-align: right;
+      font-weight: 700;
+    }
+    ul {
+      text-align: right;
+    }
+
+    li {
+      line-height: 3px;
+      padding-right: 0;
+    }
+  }
+}
+
+// Contact
+// Background color in Home section
+
+.homeContact .mainNav {
+  display: flex;
+  flex-flow: inherit;
+
+  #menu {
+    flex-direction: row-reverse;
+    line-height: 2px;
+    justify-content: space-between;
+  }
+}
+.contactContainer {
+  .contactTitle {
+    font-weight: 800;
+    font-size: 8em;
+    color: rgba(246, 94, 60, 1);
+    margin: 0em;
+    margin-left: 1em;
+  }
+  .contactInfo {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+    padding: 0;
+    color: black;
+    font-size: 2em;
+  }
+}
+
+// MEDIA QUERIES
