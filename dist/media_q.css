@@ -16,9 +16,13 @@
   }
 }
 
-.homeNav .mainNav #menu {
+.homeNav .mainNav {
   display: grid;
   grid-template-rows: repeat(2, 1fr);
+  font-size: 2em;
+}
+
+#menu {
   font-size: 2em;
 }
 
