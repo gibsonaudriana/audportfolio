@@ -117,21 +117,40 @@ footer {
   padding: 0;
   margin-top: 6em; }
 
-@media (max-width: 800px) {
-  .name {
-    opacity: 0; }
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  body {
+    background-color: red; }
+    body header {
+      font-size: 4em; }
+    body .name span {
+      font-size: 2em; }
+    body .periodtt {
+      opacity: 0%;
+      display: none; }
+    body .homeNav .mainNav {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      font-family: "Nunito", Arial, Helvetica, sans-serif;
+      font-weight: 500;
+      justify-content: space-between;
+      margin-top: 0.5em; }
+      body .homeNav .mainNav #menu {
+        display: grid;
+        font-size: 1em; }
+        body .homeNav .mainNav #menu a {
+          color: #f65e3c; }
+      body .homeNav .mainNav #logo {
+        display: none; }
+    body .workButton {
+      line-height: 2px;
+      font-weight: 500;
+      font-size: 1em;
+      letter-spacing: normal;
+      color: red; }
 
-  .homeNav #menu {
-    font-size: 12px;
-    flex-wrap: wrap-reverse; }
-
-  .mainNav #menu {
-    font-size: 12px;
-    flex-wrap: wrap-reverse;
-    line-height: 1px; }
-
-  .workButton {
-    font-size: 2px; } }
+  /* end curly brace */ }
 body {
   background: #00171f;
   font-size: 12px;
