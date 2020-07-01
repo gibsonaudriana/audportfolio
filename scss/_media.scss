@@ -2,29 +2,28 @@
 
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  // Header and Navs (diff on landing page)
+
   header {
-    font-size: 4em;
+    .name {
+      display: none;
+      .periodtt {
+        display: none;
+      }
+    }
   }
 
-  .name span {
-    font-size: 2px;
-  }
-
-  .periodtt {
-    opacity: 0%;
-    display: none;
-  }
-
-  .homeNav .mainNav {
+  .homeNav {
+    font-size: 1em;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    font-family: "Nunito", Arial, Helvetica, sans-serif;
     font-weight: 500;
-    justify-content: space-between;
-    margin-top: 0.5em;
+    justify-items: center;
+    margin-top: 2px;
 
     #menu {
-      display: grid;
+      margin-top: 0;
+      padding: 0;
       font-size: 1em;
 
       a {
@@ -32,20 +31,44 @@
       }
     }
 
+    img {
+      width: 100%;
+    }
+
     #logo {
-      display: none;
+      width: 8px;
+      height: 8px;
+      transform: none;
     }
   }
 
-  .mainBlurb {
-    .workButton {
-      line-height: 2px;
-      font-weight: 500;
+  // MainNav
+  .mainNav {
+    font-size: 1em;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-weight: 500;
+    justify-items: center;
+    margin-top: 2px;
+
+    #menu {
+      margin-top: 0;
+      padding: 0;
       font-size: 1em;
-      letter-spacing: normal;
-      color: red;
+
+      a {
+        color: $light-color;
+      }
+    }
+
+    img {
+      width: 100%;
+    }
+
+    #logo {
+      width: 8px;
+      height: 8px;
+      transform: none;
     }
   }
-
-  /* end curly brace */
 }

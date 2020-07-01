@@ -120,39 +120,50 @@ footer {
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
-  header {
-    font-size: 4em; }
-
-  .name span {
-    font-size: 2px; }
-
-  .periodtt {
-    opacity: 0%;
+  header .name {
     display: none; }
-
-  .homeNav .mainNav {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    font-family: "Nunito", Arial, Helvetica, sans-serif;
-    font-weight: 500;
-    justify-content: space-between;
-    margin-top: 0.5em; }
-    .homeNav .mainNav #menu {
-      display: grid;
-      font-size: 1em; }
-      .homeNav .mainNav #menu a {
-        color: #f65e3c; }
-    .homeNav .mainNav #logo {
+    header .name .periodtt {
       display: none; }
 
-  .mainBlurb .workButton {
-    line-height: 2px;
-    font-weight: 500;
+  .homeNav {
     font-size: 1em;
-    letter-spacing: normal;
-    color: red; }
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-weight: 500;
+    justify-items: center;
+    margin-top: 2px; }
+    .homeNav #menu {
+      margin-top: 0;
+      padding: 0;
+      font-size: 1em; }
+      .homeNav #menu a {
+        color: #f65e3c; }
+    .homeNav img {
+      width: 100%; }
+    .homeNav #logo {
+      width: 8px;
+      height: 8px;
+      transform: none; }
 
-  /* end curly brace */ }
+  .mainNav {
+    font-size: 1em;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-weight: 500;
+    justify-items: center;
+    margin-top: 2px; }
+    .mainNav #menu {
+      margin-top: 0;
+      padding: 0;
+      font-size: 1em; }
+      .mainNav #menu a {
+        color: #f65e3c; }
+    .mainNav img {
+      width: 100%; }
+    .mainNav #logo {
+      width: 8px;
+      height: 8px;
+      transform: none; } }
 body {
   background: #00171f;
   font-size: 12px;
