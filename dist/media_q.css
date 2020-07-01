@@ -16,6 +16,15 @@
   }
 }
 
-.homeNav .mainNav {
-  display: inline;
+.homeNav .mainNav #menu {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  font-size: 2em;
+}
+
+.workButton {
+  line-height: 1em;
+  font-weight: 500;
+  font-size: 1em;
+  letter-spacing: normal;
 }
