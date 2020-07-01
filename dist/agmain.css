@@ -119,11 +119,13 @@ footer {
 
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
 /* Portrait and Landscape */
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
-  header .name {
-    opacity: 0%; }
-    header .name .periodtt {
-      opacity: 0%; }
+@media only screen and (min-device-width: 400px) and (max-device-width: 700px) and (-webkit-min-device-pixel-ratio: 2) {
+  .name {
+    display: none; }
+    .name span {
+      display: none; }
+    .name .periodtt {
+      display: none; }
 
   .homeNav {
     display: grid;
