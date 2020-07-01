@@ -10,10 +10,6 @@
 /* Smartphones (landscape) ----------- */
 @media only screen and (min-width: 321px) {
   /* Styles */
-  .name {
-    font-size: 3em;
-    color: red;
-  }
 }
 
 /* Smartphones (portrait) ----------- */
