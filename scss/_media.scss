@@ -6,16 +6,17 @@
 
   header {
     .name {
-      display: none;
+      opacity: 0%;
       .periodtt {
-        display: none;
+        opacity: 0%;
       }
     }
   }
 
   .homeNav {
-    font-size: 1em;
     display: grid;
+    font-size: 1em;
+    color: red;
     grid-template-columns: repeat(2, 1fr);
     font-weight: 500;
     justify-items: center;
@@ -29,16 +30,6 @@
       a {
         color: $light-color;
       }
-    }
-
-    img {
-      width: 100%;
-    }
-
-    #logo {
-      width: 8px;
-      height: 8px;
-      transform: none;
     }
   }
 
@@ -66,8 +57,8 @@
     }
 
     #logo {
-      width: 8px;
-      height: 8px;
+      width: 4px;
+      height: 4px;
       transform: none;
     }
   }

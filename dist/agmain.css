@@ -121,13 +121,14 @@ footer {
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
   header .name {
-    display: none; }
+    opacity: 0%; }
     header .name .periodtt {
-      display: none; }
+      opacity: 0%; }
 
   .homeNav {
-    font-size: 1em;
     display: grid;
+    font-size: 1em;
+    color: red;
     grid-template-columns: repeat(2, 1fr);
     font-weight: 500;
     justify-items: center;
@@ -138,12 +139,6 @@ footer {
       font-size: 1em; }
       .homeNav #menu a {
         color: #f65e3c; }
-    .homeNav img {
-      width: 100%; }
-    .homeNav #logo {
-      width: 8px;
-      height: 8px;
-      transform: none; }
 
   .mainNav {
     font-size: 1em;
@@ -161,8 +156,8 @@ footer {
     .mainNav img {
       width: 100%; }
     .mainNav #logo {
-      width: 8px;
-      height: 8px;
+      width: 4px;
+      height: 4px;
       transform: none; } }
 body {
   background: #00171f;
