@@ -5,7 +5,6 @@
   // Header and Navs (diff on landing page)
 
   body {
-    height: 20rem;
     background: $home-color;
     font-size: 7px;
     color: white;
@@ -23,65 +22,115 @@
     }
   }
 
-  .name {
+  // Blurb
+  .mainBlurb {
+    font-size: 3em;
+  }
+
+  .workButton {
+    line-height: 2em;
+    color: $medium-color;
+    font-size: 1.7em;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding-left: 2em;
+    font-family: "serenity", Arial, Helvetica, sans-serif;
+
+    &:hover {
+      border-color: transparent;
+      background-color: $light-color;
+      border-radius: 5px;
+      transition: background-color 0.5s;
+      padding: 2px 4px 2px 4px;
+    }
+  }
+}
+
+h2 {
+  font-size: 2em;
+  line-height: 0.7em;
+}
+
+.name {
+  display: none;
+
+  span {
     display: none;
-    span {
-      display: none;
-    }
-    .periodtt {
-      display: none;
-    }
   }
+  .periodtt {
+    display: none;
+  }
+}
 
-  .homeNav {
+.homeNav {
+  display: grid;
+  font-size: 8px;
+  font-weight: 300;
+  grid-gap: none;
+  margin-top: 1px;
+  padding: none;
+
+  #menu {
     display: inline;
-    font-size: 9px;
-    color: red;
-    grid-template-columns: repeat(2, 1fr);
-    font-weight: 300;
-    margin-top: 1px;
-
-    #menu {
-      display: inline;
-      margin-top: 0;
-      padding: 0;
-      font-size: 1em;
-
-      a {
-        color: $light-color;
-        font-size: 7px;
-      }
-    }
-  }
-
-  // MainNav
-  .mainNav {
+    margin-top: 0;
+    padding: 0;
     font-size: 7px;
-    display: inline;
-    grid-template-columns: repeat(2, 1fr);
-    font-weight: 300;
-    justify-items: center;
-    margin-top: 1px;
 
-    #menu {
-      margin-top: 0;
-      padding: 0;
+    a {
+      color: $light-color;
       font-size: 7px;
+      padding: none;
+    }
+  }
+}
 
-      a {
-        color: $light-color;
+// MainNav
+.mainNav {
+  font-size: 7px;
+  display: inline;
+  grid-template-columns: repeat(2, 1fr);
+  font-weight: 300;
+  justify-items: center;
+  margin-top: 1px;
+
+  #menu {
+    margin-top: 0;
+    padding: 0;
+    font-size: 7px;
+
+    a {
+      color: $light-color;
+    }
+  }
+}
+
+section {
+  .aboutContainer {
+    grid-gap: none;
+
+    .bio {
+      padding-left: 0;
+      margin-top: 0;
+
+      p {
+        text-align: inherit;
+        font-size: 20px;
+
+        .resumeLink {
+          text-transform: lowercase;
+          color: rgba(246, 94, 60, 1);
+        }
       }
     }
-
-    img {
-      width: 100%;
+    ul {
+      text-align: left;
+      line-height: 2em;
+      padding-bottom: none;
+      overflow-wrap: inherit;
     }
+  }
 
-    #logo {
-      width: 2px;
-      height: 2px;
-      align-items: center;
-      transform: none;
-    }
+  .bioimg {
+    border: 2px red solid;
   }
 }

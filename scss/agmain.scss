@@ -181,13 +181,18 @@ section {
     grid-template-areas:
       "title title  . ."
       "logo logo  bio bio"
-      ". . about about";
+      "carl carl about about";
     grid-gap: 1em;
     overflow: hidden;
     padding: 2em 4em 2em;
     border-left: 1em solid $medium-color;
     // margin-top: 2em;
     margin-bottom: 0;
+
+    @media (max-width: 800px) {
+      grid-gap: none;
+      padding: 0px 5px 0px 5px;
+    }
 
     #aboutTitle {
       margin-top: 0;
@@ -202,6 +207,12 @@ section {
       grid-area: logo;
       border: rgba(0, 23, 31, 1) 6px dotted;
       border-radius: 400px;
+
+      @media (max-width: 800px) {
+        border: 4px solid rgba(0, 23, 31, 1);
+        border-radius: 10px;
+        max-width: 100%;
+      }
     }
 
     .bio {
@@ -225,17 +236,18 @@ section {
     h4 {
       color: $medium-color;
       grid-area: about;
-      margin-top: 2em;
-      padding-top: 1em;
-      text-align: right;
-      font-weight: 700;
+      margin-top: 1em;
+      font-weight: 600;
     }
     ul {
-      text-align: right;
+      text-align: center;
+      @media (max-width: 800px) {
+        grid-area: carl;
+      }
     }
 
     li {
-      line-height: 3px;
+      line-height: 1em;
       padding-right: 0;
     }
   }
