@@ -1,14 +1,13 @@
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
 
 /* Portrait and Landscape */
-@media (max-device-width: 600px) {
+@media (max-width: 800px) {
   // Header and Navs (diff on landing page)
 
   body {
+    height: 20rem;
     background: $home-color;
     font-size: 7px;
-    font-family: "Nunito", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-      sans-serif;
     color: white;
     font-weight: 300;
     font-style: normal;
