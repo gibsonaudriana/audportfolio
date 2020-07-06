@@ -210,10 +210,6 @@ footer {
       line-height: 2em;
       padding-bottom: none; }
 
-  #contact,
-  .contactImg {
-    display: none; }
-
   .contactContainer,
   .contactTitle {
     font-size: 9px; } }
