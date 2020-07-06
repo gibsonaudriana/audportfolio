@@ -164,6 +164,7 @@ footer {
     padding: 0 0 0 0; }
     .homeNav #menu li {
       padding: 1em 1em 1em 2em; }
+    .homeNav #menu .homeNav,
     .homeNav #menu img {
       top: 7em;
       width: 52vh;
