@@ -69,10 +69,11 @@
     }
     img {
       top: 7em;
-      width: 60vh;
-      height: 60vh;
+      width: 52vh;
+      height: 52vh;
       position: fixed;
       opacity: 50%;
+      z-index: 0;
     }
 
     #menu {
