@@ -172,6 +172,10 @@ section {
     border-radius: 0px;
     border-right: 1em solid $medium-color;
     border-width: 1em;
+
+    .btn {
+      padding-top: 1em;
+    }
   }
   .aboutContainer {
     background-color: white;
@@ -192,7 +196,7 @@ section {
 
     @media (max-width: 800px) {
       grid-gap: none;
-      padding: 0px 5px 0px 5px;
+      padding: 0px 7px 0px 7px;
     }
 
     #aboutTitle {

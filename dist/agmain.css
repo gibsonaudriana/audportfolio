@@ -337,6 +337,8 @@ section .mainNav {
   border-radius: 0px;
   border-right: 1em solid #0064c8;
   border-width: 1em; }
+  section .mainNav .btn {
+    padding-top: 1em; }
 section .aboutContainer {
   background-color: white;
   display: grid;
@@ -350,7 +352,7 @@ section .aboutContainer {
   @media (max-width: 800px) {
     section .aboutContainer {
       grid-gap: none;
-      padding: 0px 5px 0px 5px; } }
+      padding: 0px 7px 0px 7px; } }
   section .aboutContainer #aboutTitle {
     margin-top: 0;
     margin-bottom: 7px;
