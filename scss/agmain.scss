@@ -224,9 +224,9 @@ section {
       color: $home-color;
       padding-left: 2em;
       margin-top: 1em;
+      text-indent: none;
       font-size: 2em;
       grid-area: bio;
-      text-align: right;
 
       p {
         text-align: center;
@@ -243,17 +243,11 @@ section {
       grid-area: about;
       margin-top: 1em;
       font-weight: 600;
-    }
-    ul {
-      text-align: center;
-      @media (max-width: 800px) {
-        grid-area: carl;
-      }
+      padding-right: 2px;
     }
 
     li {
       line-height: 1em;
-      padding-right: 0;
     }
   }
 }

@@ -373,9 +373,9 @@ section .aboutContainer {
     color: #00171f;
     padding-left: 2em;
     margin-top: 1em;
+    text-indent: none;
     font-size: 2em;
-    grid-area: bio;
-    text-align: right; }
+    grid-area: bio; }
     section .aboutContainer .bio p {
       text-align: center; }
       section .aboutContainer .bio p .resumeLink {
@@ -385,15 +385,10 @@ section .aboutContainer {
     color: #0064c8;
     grid-area: about;
     margin-top: 1em;
-    font-weight: 600; }
-  section .aboutContainer ul {
-    text-align: center; }
-    @media (max-width: 800px) {
-      section .aboutContainer ul {
-        grid-area: carl; } }
+    font-weight: 600;
+    padding-right: 2px; }
   section .aboutContainer li {
-    line-height: 1em;
-    padding-right: 0; }
+    line-height: 1em; }
 
 .homeContact .mainNav {
   display: flex;
