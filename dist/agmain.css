@@ -165,10 +165,10 @@ footer {
     .homeNav #menu li {
       padding: 1em 1em 1em 2em; }
     .homeNav #menu img {
-      top: 4em;
+      top: 7em;
       width: 40vh;
       height: 40vh;
-      position: fixed;
+      position: sticky;
       opacity: 50%; }
     .homeNav #menu #menu {
       line-height: 0;
