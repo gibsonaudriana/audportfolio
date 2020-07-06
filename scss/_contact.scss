@@ -12,7 +12,7 @@ header {
 
 .container {
   margin-bottom: 10em;
-  padding-bottom: 2em 1em 2em 2em;
+  padding: 2em 1em 2em 2em;
 
   .contactTitle {
     color: $light-color;
@@ -27,7 +27,6 @@ header {
         display: grid;
         margin-top: 3rem;
         margin-bottom: 4em;
-        padding: 4em 6em 4em 6em;
         grid-gap: 1rem;
         grid-template-columns: repeat(3, 1fr);
         // Indicates four even columns

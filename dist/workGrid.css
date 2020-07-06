@@ -89,3 +89,18 @@ img:hover {
 .important {
   grid-column: auto/ span 3;
 }
+
+@media (max-width: 800px) {
+  .workHead {
+    font-size: 6em;
+  }
+
+  .mainNav ul li {
+    font-size: 12px;
+    padding-left: 1em;
+  }
+
+  .mainNav .btn {
+    font-size: 1em;
+  }
+}

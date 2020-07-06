@@ -1,12 +1,9 @@
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
-
-// Desktop
-// Burger Menu
-// @media (min-width: 800px) {
-//   .hamburgerMenu {
-//     display: none;
-//   }
-// }
+@media (max-width: 2000px) and (min-width: 799px) {
+  .logo {
+    display: none;
+  }
+}
 
 /* Portrait and Landscape */
 @media (max-width: 800px) {
@@ -22,123 +19,128 @@
     // background-image: $image;
     // background-size: cover;
     padding: 0.5em 0.5em 0.5em 0.5em;
-
-    .homeContact {
-      background: white;
-      padding: 0;
-      margin: 0;
-    }
   }
 
   // Blurb
-  .mainBlurb {
-    font-size: 3em;
-  }
-
-  .workButton {
-    line-height: 2em;
-    color: $medium-color;
-    font-size: 1.7em;
-    font-weight: 700;
-    letter-spacing: 2px;
-    padding-left: 2em;
-    font-family: "serenity", Arial, Helvetica, sans-serif;
-
-    &:hover {
-      border-color: transparent;
-      background-color: $light-color;
-      border-radius: 5px;
-      transition: background-color 0.5s;
-      padding: 2px 4px 2px 4px;
-    }
-  }
-}
-
-h2 {
-  font-size: 2em;
-  line-height: 0.7em;
-}
-
-.name {
-  display: none;
-
-  span {
-    display: none;
-  }
-  .periodtt {
-    display: none;
-  }
-}
-
-.homeNav {
-  display: grid;
-  font-size: 8px;
-  font-weight: 300;
-  grid-gap: none;
-  margin-top: 1px;
-  padding: none;
-
-  #menu {
-    display: inline;
-    margin-top: 0;
-    padding: 0;
-    font-size: 7px;
-
-    a {
-      color: $light-color;
-      font-size: 7px;
-      padding: none;
-    }
-  }
-}
-
-// MainNav
-.mainNav {
-  font-size: 7px;
-  display: inline;
-  grid-template-columns: repeat(2, 1fr);
-  font-weight: 300;
-  justify-items: center;
-  margin-top: 1px;
-
-  #menu {
-    margin-top: 0;
-    padding: 0;
-    font-size: 7px;
-
-    a {
-      color: $light-color;
-    }
-  }
-}
-
-section {
-  .aboutContainer {
-    grid-gap: none;
-
-    .bio {
-      padding-left: 0;
+  aside {
+    .mainBlurb {
+      padding-top: 0;
       margin-top: 0;
+    }
 
-      p {
-        text-align: inherit;
-        font-size: 20px;
+    .workButton a {
+      line-height: 1px;
+      color: $medium-color;
+      font-weight: 700;
+      letter-spacing: normal;
+      padding-left: 0;
+      font-family: "serenity", Arial, Helvetica, sans-serif;
 
-        .resumeLink {
-          text-transform: lowercase;
-          color: rgba(246, 94, 60, 1);
-        }
+      a .workButton {
+        font-size: 3px;
       }
     }
-    ul {
-      text-align: left;
-      line-height: 2em;
-      padding-bottom: none;
-      overflow-wrap: inherit;
+  }
+
+  h2 {
+    font-size: 2em;
+    line-height: 0.7em;
+  }
+
+  .name {
+    display: none;
+
+    span {
+      display: none;
+    }
+    .periodtt {
+      display: none;
     }
   }
 
-  .bioimg {
-    border: 2px red solid;
+  .homeNav #menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 7px;
+    font-weight: 500;
+    padding: 0 0 0 0;
+
+    img {
+      top: 4em;
+      width: 40vh;
+      height: 40vh;
+      position: fixed;
+      opacity: 50%;
+    }
+
+    #menu {
+      line-height: 0;
+      margin-top: 0;
+      padding: 0;
+
+      a {
+        color: $light-color;
+        padding: 0;
+      }
+    }
   }
+
+  // MainNav
+  .mainNav {
+    font-size: 7px;
+    grid-template-columns: repeat(2, 1fr);
+    font-weight: 300;
+    justify-items: center;
+    margin-top: 1px;
+
+    #menu {
+      margin-top: 0;
+      padding: 0;
+      font-size: 7px;
+
+      a {
+        color: $light-color;
+      }
+    }
+  }
+
+  section {
+    .aboutContainer {
+      grid-gap: none;
+
+      .bio {
+        padding-left: 0;
+        margin-top: 0;
+
+        p {
+          text-align: inherit;
+          font-size: 20px;
+
+          .resumeLink {
+            text-transform: lowercase;
+            color: rgba(246, 94, 60, 1);
+          }
+        }
+      }
+      ul {
+        text-align: center;
+        line-height: 2em;
+        padding-bottom: none;
+      }
+    }
+  }
+
+  // Contact
+  #contact,
+  .contactImg {
+    display: none;
+  }
+
+  .contactContainer,
+  .contactTitle {
+    font-size: 9px;
+  }
+  // Last bracket
 }
