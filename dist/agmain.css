@@ -158,6 +158,7 @@ footer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin-right: 2em;
     justify-content: space-around;
     font-size: 7px;
     font-weight: 800;
