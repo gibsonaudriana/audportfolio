@@ -368,8 +368,11 @@ section .aboutContainer {
   margin-bottom: 0; }
   @media (max-width: 800px) {
     section .aboutContainer {
+      grid-template-areas: "title title  . ." "logo logo  bio bio" "carl carl bio bio";
       grid-gap: none;
-      padding: 0px 7px 0px 7px; } }
+      padding: 0px 7px 0px 7px;
+      background-color: white;
+      border-left: 1em solid #0064c8; } }
   section .aboutContainer #aboutTitle {
     margin-top: 0;
     margin-bottom: 7px;
@@ -394,7 +397,8 @@ section .aboutContainer {
     font-size: 2em;
     grid-area: bio; }
     section .aboutContainer .bio p {
-      text-align: center; }
+      background-color: white;
+      border-radius: 4px rgba(255, 255, 255, 0.6) solid; }
       section .aboutContainer .bio p .resumeLink {
         text-transform: lowercase;
         color: #f65e3c; }
@@ -405,6 +409,7 @@ section .aboutContainer {
     font-weight: 600;
     padding-right: 2px; }
   section .aboutContainer li {
+    right: 2em;
     line-height: 1em; }
 
 .homeContact .mainNav {

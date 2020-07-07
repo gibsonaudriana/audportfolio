@@ -221,8 +221,14 @@ section {
     margin-bottom: 0;
 
     @media (max-width: 800px) {
+      grid-template-areas:
+        "title title  . ."
+        "logo logo  bio bio"
+        "carl carl bio bio";
       grid-gap: none;
       padding: 0px 7px 0px 7px;
+      background-color: rgba(255, 255, 255, 1);
+      border-left: 1em solid $medium-color;
     }
 
     #aboutTitle {
@@ -255,8 +261,8 @@ section {
       grid-area: bio;
 
       p {
-        text-align: center;
-
+        background-color: rgba(255, 255, 255, 1);
+        border-radius: 4px rgba(255, 255, 255, 0.6) solid;
         .resumeLink {
           text-transform: lowercase;
           color: rgba(246, 94, 60, 1);
@@ -273,6 +279,7 @@ section {
     }
 
     li {
+      right: 2em;
       line-height: 1em;
     }
   }
