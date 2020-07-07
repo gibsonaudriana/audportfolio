@@ -158,6 +158,7 @@ footer {
       padding: 1em 1em 1em 2em; }
     .homeNav #menu .homeNav,
     .homeNav #menu img {
+      background: whitesmoke;
       top: 6em;
       right: 1em;
       position: absolute;
@@ -165,7 +166,6 @@ footer {
       height: 42vh;
       position: fixed;
       opacity: 50%;
-      z-index: 0;
       pointer-events: none; }
     .homeNav #menu #menu {
       line-height: 0;
@@ -314,7 +314,7 @@ aside .mainBlurb {
   padding-left: 2em; }
   @media (max-width: 800px) {
     aside .mainBlurb {
-      background: #005c7a;
+      background: white;
       color: black; } }
   aside .mainBlurb .txt-type {
     color: white; }
@@ -364,14 +364,13 @@ section .aboutContainer {
   grid-gap: 1em;
   overflow: hidden;
   padding: 2em 4em 2em;
-  border-left: 1em solid #0064c8;
+  border-left: 2em solid #0064c8;
   margin-bottom: 0; }
   @media (max-width: 800px) {
     section .aboutContainer {
       grid-template-areas: "title title  . ." "logo logo  bio bio" "carl carl bio bio";
       grid-gap: none;
       padding: 0px 7px 0px 7px;
-      background-color: white;
       border-left: 1em solid #0064c8; } }
   section .aboutContainer #aboutTitle {
     margin-top: 0;
@@ -396,12 +395,9 @@ section .aboutContainer {
     text-indent: none;
     font-size: 2em;
     grid-area: bio; }
-    section .aboutContainer .bio p {
-      background-color: white;
-      border-radius: 4px rgba(255, 255, 255, 0.6) solid; }
-      section .aboutContainer .bio p .resumeLink {
-        text-transform: lowercase;
-        color: #f65e3c; }
+    section .aboutContainer .bio p .resumeLink {
+      text-transform: lowercase;
+      color: #f65e3c; }
   section .aboutContainer h4 {
     color: #0064c8;
     grid-area: about;
