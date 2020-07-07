@@ -138,6 +138,11 @@ aside {
     padding-top: 2em;
     padding-left: 2em;
 
+    @media (max-width: 800px) {
+      background: $main-color;
+      color: black;
+    }
+
     .txt-type {
       color: white;
     }
@@ -145,6 +150,10 @@ aside {
     .title2 {
       font-size: 2em;
       color: white;
+
+      @media (max-width: 800px) {
+        background: $main-color;
+      }
     }
   }
 

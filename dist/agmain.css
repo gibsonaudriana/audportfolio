@@ -167,8 +167,8 @@ footer {
     .homeNav #menu .homeNav,
     .homeNav #menu img {
       top: 7em;
-      width: 52vh;
-      height: 52vh;
+      width: 25vh;
+      height: 25vh;
       position: fixed;
       opacity: 50%;
       z-index: 0;
@@ -314,11 +314,18 @@ aside .mainBlurb {
   margin-bottom: 7em;
   padding-top: 2em;
   padding-left: 2em; }
+  @media (max-width: 800px) {
+    aside .mainBlurb {
+      background: #94d1be;
+      color: black; } }
   aside .mainBlurb .txt-type {
     color: white; }
   aside .mainBlurb .title2 {
     font-size: 2em;
     color: white; }
+    @media (max-width: 800px) {
+      aside .mainBlurb .title2 {
+        background: #94d1be; } }
 aside .workButton {
   line-height: 1em;
   color: #0064c8;
