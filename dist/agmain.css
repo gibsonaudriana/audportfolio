@@ -159,6 +159,7 @@ footer {
     .homeNav #menu .homeNav,
     .homeNav #menu img {
       top: 6em;
+      right: 1em;
       position: absolute;
       width: 42vh;
       height: 42vh;
