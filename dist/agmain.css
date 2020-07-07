@@ -133,15 +133,6 @@ footer {
   aside .mainBlurb {
     padding-top: 0;
     margin-top: 0; }
-  aside .workButton a {
-    line-height: 1px;
-    color: #0064c8;
-    font-weight: 700;
-    letter-spacing: normal;
-    padding-left: 0;
-    font-family: "serenity", Arial, Helvetica, sans-serif; }
-    aside .workButton a a .workButton {
-      font-size: 3px; }
 
   h2 {
     font-size: 2em;
@@ -167,10 +158,10 @@ footer {
       padding: 1em 1em 1em 2em; }
     .homeNav #menu .homeNav,
     .homeNav #menu img {
-      top: 7em;
+      top: 10em;
       position: absolute;
-      width: 25vh;
-      height: 25vh;
+      width: 42vh;
+      height: 42vh;
       position: fixed;
       opacity: 50%;
       z-index: 0;
@@ -226,7 +217,7 @@ body {
   padding: 1em 1em 1em 1em; }
   @media (max-width: 800px) {
     body {
-      background: #94d1be; } }
+      background: #005c7a; } }
   body .homeContact {
     background: white;
     padding: 0;
@@ -318,7 +309,7 @@ aside .mainBlurb {
   padding-left: 2em; }
   @media (max-width: 800px) {
     aside .mainBlurb {
-      background: #94d1be;
+      background: #005c7a;
       color: black; } }
   aside .mainBlurb .txt-type {
     color: white; }
@@ -327,7 +318,7 @@ aside .mainBlurb {
     color: white; }
     @media (max-width: 800px) {
       aside .mainBlurb .title2 {
-        background: #94d1be; } }
+        background: #005c7a; } }
 aside .workButton {
   line-height: 1em;
   color: #0064c8;
@@ -336,6 +327,15 @@ aside .workButton {
   letter-spacing: 2px;
   padding-left: 2em;
   font-family: "serenity", Arial, Helvetica, sans-serif; }
+  @media (max-width: 800px) {
+    aside .workButton {
+      color: black;
+      padding-top: 1.5em;
+      line-height: 1em;
+      font-weight: 700;
+      letter-spacing: normal;
+      padding-left: 0;
+      font-family: "serenity", Arial, Helvetica, sans-serif; } }
   aside .workButton:hover {
     border-color: transparent;
     background-color: #f65e3c;

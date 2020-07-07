@@ -24,19 +24,6 @@
       padding-top: 0;
       margin-top: 0;
     }
-
-    .workButton a {
-      line-height: 1px;
-      color: $medium-color;
-      font-weight: 700;
-      letter-spacing: normal;
-      padding-left: 0;
-      font-family: "serenity", Arial, Helvetica, sans-serif;
-
-      a .workButton {
-        font-size: 3px;
-      }
-    }
   }
 
   h2 {
@@ -70,10 +57,10 @@
     }
     .homeNav,
     img {
-      top: 7em;
+      top: 10em;
       position: absolute;
-      width: 25vh;
-      height: 25vh;
+      width: 42vh;
+      height: 42vh;
       position: fixed;
       opacity: 50%;
       z-index: 0;
