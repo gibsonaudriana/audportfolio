@@ -126,6 +126,10 @@ body {
 aside {
   .asideContainer {
     position: relative;
+    @media (max-width: 800px) {
+      background: rgba(0, 92, 122, 1);
+      color: black;
+    }
   }
   .mainBlurb {
     color: $main-color;

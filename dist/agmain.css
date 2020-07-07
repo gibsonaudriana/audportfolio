@@ -158,7 +158,7 @@ footer {
       padding: 1em 1em 1em 2em; }
     .homeNav #menu .homeNav,
     .homeNav #menu img {
-      top: 10em;
+      top: 6em;
       position: absolute;
       width: 42vh;
       height: 42vh;
@@ -297,6 +297,10 @@ body {
 
 aside .asideContainer {
   position: relative; }
+  @media (max-width: 800px) {
+    aside .asideContainer {
+      background: #005c7a;
+      color: black; } }
 aside .mainBlurb {
   color: #94d1be;
   font-family: "Kazimir", Arial, Helvetica, sans-serif;
