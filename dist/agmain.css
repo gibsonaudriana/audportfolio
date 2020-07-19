@@ -154,10 +154,13 @@ footer {
     font-size: 7px;
     font-weight: 800;
     padding: 0 0 0 0; }
+    .homeNav #menu .current {
+      border-bottom: none; }
     .homeNav #menu li {
       padding: 1em 1em 1em 2em; }
     .homeNav #menu .homeNav,
     .homeNav #menu img {
+      top: 3em;
       position: absolute;
       width: 42vh;
       height: 42vh;

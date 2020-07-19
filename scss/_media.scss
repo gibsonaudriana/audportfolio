@@ -52,12 +52,17 @@
     font-weight: 800;
     padding: 0 0 0 0;
 
+    .current {
+      border-bottom: none;
+    }
+
     li {
       padding: 1em 1em 1em 2em;
     }
 
     .homeNav,
     img {
+      top: 3em;
       position: absolute;
       width: 42vh;
       height: 42vh;
