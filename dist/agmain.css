@@ -146,6 +146,7 @@ footer {
       display: none; }
 
   .homeNav #menu {
+    top: 4em;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -160,8 +161,7 @@ footer {
       padding: 1em 1em 1em 2em; }
     .homeNav #menu .homeNav,
     .homeNav #menu img {
-      top: 4em;
-      right: 2px;
+      right: 1px;
       position: absolute;
       width: 42vh;
       height: 42vh;
