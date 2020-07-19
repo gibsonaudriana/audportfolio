@@ -78,6 +78,23 @@ body {
     font-size: 2.3em;
     text-decoration: none;
 
+    @media (max-width: 800px) {
+      li {
+        margin: 0.5em;
+        background-color: rgba(255, 255, 255, 0.582);
+        border-radius: 55px;
+        border-left: $light-color 5px solid;
+        border-right: $main-color 5px solid;
+        border-top: $medium-color 5px solid;
+        border-bottom: $home-color 4px solid;
+        padding: 1em;
+
+        .contactMenu {
+          margin-top: 1em;
+        }
+      }
+    }
+
     a {
       color: $light-color;
     }
@@ -143,7 +160,6 @@ aside {
     padding-left: 2em;
 
     @media (max-width: 800px) {
-      background: white;
       color: black;
     }
 

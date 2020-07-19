@@ -158,9 +158,8 @@ footer {
       padding: 1em 1em 1em 2em; }
     .homeNav #menu .homeNav,
     .homeNav #menu img {
-      background: whitesmoke;
-      top: 6em;
-      right: 1em;
+      top: 2.6em;
+      right: 8em;
       position: absolute;
       width: 42vh;
       height: 42vh;
@@ -266,6 +265,18 @@ body {
     padding: 0 1em 0em 1em;
     font-size: 2.3em;
     text-decoration: none; }
+    @media (max-width: 800px) {
+      .homeNav #menu li {
+        margin: 0.5em;
+        background-color: rgba(255, 255, 255, 0.582);
+        border-radius: 55px;
+        border-left: #f65e3c 5px solid;
+        border-right: #94d1be 5px solid;
+        border-top: #0064c8 5px solid;
+        border-bottom: #00171f 4px solid;
+        padding: 1em; }
+        .homeNav #menu li .contactMenu {
+          margin-top: 1em; } }
     .homeNav #menu a {
       color: #f65e3c; }
   .homeNav img {
@@ -314,7 +325,6 @@ aside .mainBlurb {
   padding-left: 2em; }
   @media (max-width: 800px) {
     aside .mainBlurb {
-      background: white;
       color: black; } }
   aside .mainBlurb .txt-type {
     color: white; }
