@@ -8,10 +8,10 @@ body {
   // background-image: $image;
   // background-size: cover;
   padding: 1em 1em 1em 1em;
+  background-color: $home-color;
 
   @media (max-width: 800px) {
-    background: rgba(0, 92, 122, 1);
-    background-color: $home-color;
+    background: $home-color;
   }
   .homeContact {
     background: white;
@@ -84,10 +84,6 @@ body {
         border-top: $medium-color 5px solid;
         border-bottom: white 4px solid;
         padding: 1em;
-
-        .contactMenu {
-          margin-top: 1em;
-        }
       }
     }
 
@@ -155,25 +151,24 @@ aside {
     padding-top: 2em;
     padding-left: 2em;
 
+    .txt-type {
+      color: white;
+    }
+
     @media (max-width: 800px) {
       color: black;
       background-color: $medium-color;
       border-right: 4px $home-color solid;
       padding-right: 1em;
-    }
 
-    .txt-type {
-      color: white;
-    }
-
-    .title2 {
-      font-size: 2em;
-      color: white;
-      background-color: $light-color;
-      margin-top: 2px;
-      margin-right: 5px;
-      padding: 4px 4px 4px 4px;
-      border-bottom: solid 7px $medium-color;
+      .title2 {
+        font-size: 2em;
+        color: white;
+        background-color: $light-color;
+        margin-top: 2px;
+        margin-right: 5px;
+        border-bottom: 5px $medium-color solid;
+      }
     }
   }
 

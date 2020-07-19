@@ -30,12 +30,13 @@ h4 {
     background-repeat: no-repeat;
     color: $light-color;
     border: none;
-    font-size: 30px;
     font-weight: 700;
+    font-size: 1.1em;
     cursor: pointer;
     overflow: hidden;
     outline: none;
-    padding: 0px 0px 8px;
+    margin-left: 4px;
+    margin-top: 5px;
 
     &:hover {
       background-color: $medium-color;

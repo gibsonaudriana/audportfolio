@@ -17,12 +17,13 @@ h4 {
     background-repeat: no-repeat;
     color: #f65e3c;
     border: none;
-    font-size: 30px;
     font-weight: 700;
+    font-size: 1.1em;
     cursor: pointer;
     overflow: hidden;
     outline: none;
-    padding: 0px 0px 8px; }
+    margin-left: 4px;
+    margin-top: 5px; }
     .dropdown .btn:hover,
     .dropdown .btn-secondary:hover,
     .dropdown .btn-sm:hover {
@@ -119,6 +120,10 @@ footer {
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
 @media (max-width: 2000px) and (min-width: 799px) {
   .logo {
+    display: none; }
+
+  .mobileIntro,
+  .mobileName {
     display: none; } }
 /* Portrait and Landscape */
 @media (max-width: 800px) {
@@ -129,6 +134,23 @@ footer {
     font-style: normal;
     margin-bottom: none;
     padding: 1em 1em 1em 1em; }
+
+  .mobileIntro {
+    font-size: 12em;
+    text-align: center;
+    font-weight: 600;
+    font-family: "serenity", "Times New Roman", Times, serif; }
+
+  .mobileName {
+    font-weight: 400;
+    font-size: 35px;
+    margin-bottom: 2em; }
+
+  .Aud {
+    font-weight: 700;
+    font-size: 40px;
+    display: inline;
+    color: #0064c8; }
 
   aside .mainBlurb {
     padding-top: 0;
@@ -149,7 +171,7 @@ footer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-right: 1em;
+    margin-right: 2em;
     justify-content: space-around;
     font-size: 7px;
     font-weight: 800;
@@ -209,11 +231,11 @@ footer {
 body {
   font-style: normal;
   margin-bottom: 1em;
-  padding: 1em 1em 1em 1em; }
+  padding: 1em 1em 1em 1em;
+  background-color: #00171f; }
   @media (max-width: 800px) {
     body {
-      background: #005c7a;
-      background-color: #00171f; } }
+      background: #00171f; } }
   body .homeContact {
     background: white;
     padding: 0;
@@ -271,9 +293,7 @@ body {
         border-right: #94d1be 5px solid;
         border-top: #0064c8 5px solid;
         border-bottom: white 4px solid;
-        padding: 1em; }
-        .homeNav #menu li .contactMenu {
-          margin-top: 1em; } }
+        padding: 1em; } }
     .homeNav #menu a {
       color: #f65e3c; }
   .homeNav img {
@@ -320,22 +340,21 @@ aside .mainBlurb {
   margin-bottom: 7em;
   padding-top: 2em;
   padding-left: 2em; }
+  aside .mainBlurb .txt-type {
+    color: white; }
   @media (max-width: 800px) {
     aside .mainBlurb {
       color: black;
       background-color: #0064c8;
       border-right: 4px #00171f solid;
-      padding-right: 1em; } }
-  aside .mainBlurb .txt-type {
-    color: white; }
-  aside .mainBlurb .title2 {
-    font-size: 2em;
-    color: white;
-    background-color: #f65e3c;
-    margin-top: 2px;
-    margin-right: 5px;
-    padding: 4px 4px 4px 4px;
-    border-bottom: solid 7px #0064c8; }
+      padding-right: 1em; }
+      aside .mainBlurb .title2 {
+        font-size: 2em;
+        color: white;
+        background-color: #f65e3c;
+        margin-top: 2px;
+        margin-right: 5px;
+        border-bottom: 5px #0064c8 solid; } }
 aside .workButton {
   line-height: 1em;
   color: #0064c8;

@@ -3,6 +3,11 @@
   .logo {
     display: none;
   }
+
+  .mobileIntro,
+  .mobileName {
+    display: none;
+  }
 }
 
 /* Portrait and Landscape */
@@ -16,6 +21,26 @@
     font-style: normal;
     margin-bottom: none;
     padding: 1em 1em 1em 1em;
+  }
+
+  .mobileIntro {
+    font-size: 12em;
+    text-align: center;
+    font-weight: 600;
+    font-family: "serenity", "Times New Roman", Times, serif;
+  }
+
+  .mobileName {
+    font-weight: 400;
+    font-size: 35px;
+    margin-bottom: 2em;
+  }
+
+  .Aud {
+    font-weight: 700;
+    font-size: 40px;
+    display: inline;
+    color: $medium-color;
   }
 
   // Blurb
@@ -46,7 +71,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-right: 1em;
+    margin-right: 2em;
     justify-content: space-around;
     font-size: 7px;
     font-weight: 800;
