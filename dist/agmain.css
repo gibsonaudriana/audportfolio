@@ -160,7 +160,8 @@ footer {
       padding: 1em 1em 1em 2em; }
     .homeNav #menu .homeNav,
     .homeNav #menu img {
-      top: 3em;
+      top: 4em;
+      left: 4px;
       position: absolute;
       width: 42vh;
       height: 42vh;
