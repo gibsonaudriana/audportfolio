@@ -43,7 +43,6 @@
   }
 
   .homeNav #menu {
-    top: 4em;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -63,12 +62,11 @@
 
     .homeNav,
     img {
-      right: 1px;
       position: absolute;
-      width: 42vh;
-      height: 42vh;
+      width: 36vh;
+      height: 36vh;
       position: fixed;
-      opacity: 50%;
+      opacity: 70%;
       pointer-events: none;
     }
 
