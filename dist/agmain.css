@@ -183,8 +183,8 @@ footer {
     .homeNav #menu .homeNav,
     .homeNav #menu img {
       position: absolute;
-      width: 36vh;
-      height: 36vh;
+      width: 10vh;
+      height: 10vh;
       position: fixed;
       opacity: 70%;
       pointer-events: none; }
