@@ -156,8 +156,7 @@ footer {
     color: #0064c8; }
 
   aside .mainBlurb {
-    padding-top: 0;
-    margin-top: 0; }
+    display: none; }
 
   h2 {
     font-size: 2em;
