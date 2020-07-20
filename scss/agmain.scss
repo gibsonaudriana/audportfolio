@@ -213,6 +213,10 @@ section {
     .btn {
       padding-top: 1em;
     }
+
+    @media (max-width: 800px) {
+      display: none;
+    }
   }
   .aboutContainer {
     background-color: white;
@@ -247,6 +251,11 @@ section {
       font-size: 9em;
       grid-area: title;
       color: $light-color;
+
+      @media (max-width: 800px) {
+        margin-top: 12px;
+        line-height: 1em;
+      }
     }
 
     .bioimg {
