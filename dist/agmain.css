@@ -136,7 +136,9 @@ footer {
     padding: 1em 1em 1em 1em; }
 
   .mobileIntro {
+    margin-top: 14px;
     font-size: 12em;
+    line-height: 1em;
     text-align: center;
     font-weight: 600;
     font-family: "serenity", "Times New Roman", Times, serif; }
