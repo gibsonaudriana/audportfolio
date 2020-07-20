@@ -144,6 +144,7 @@ footer {
   .mobileName {
     font-weight: 400;
     font-size: 35px;
+    margin-top: 1em;
     margin-bottom: 2em; }
 
   .Aud {
@@ -182,9 +183,10 @@ footer {
       padding: 1em 1em 1em 2em; }
     .homeNav #menu .homeNav,
     .homeNav #menu img {
+      margin-top: 2em;
       position: absolute;
-      width: 10vh;
-      height: 10vh;
+      width: 22vh;
+      height: 22vh;
       position: fixed;
       opacity: 70%;
       pointer-events: none; }
@@ -286,7 +288,7 @@ body {
     @media (max-width: 800px) {
       .homeNav #menu li {
         margin: 0.5em;
-        margin-top: 1em;
+        margin-top: 2em;
         background-color: rgba(255, 255, 255, 0.582);
         border-radius: 55px;
         border-left: #f65e3c 5px solid;

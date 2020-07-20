@@ -33,6 +33,7 @@
   .mobileName {
     font-weight: 400;
     font-size: 35px;
+    margin-top: 1em;
     margin-bottom: 2em;
   }
 
@@ -87,9 +88,10 @@
 
     .homeNav,
     img {
+      margin-top: 2em;
       position: absolute;
-      width: 10vh;
-      height: 10vh;
+      width: 22vh;
+      height: 22vh;
       position: fixed;
       opacity: 70%;
       pointer-events: none;
