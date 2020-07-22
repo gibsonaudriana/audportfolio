@@ -73,13 +73,12 @@ body {
 
     @media (max-width: 800px) {
       li {
-        flex-wrap: wrap;
         margin: 2em;
         border-radius: 55px;
-        border-left: $light-color 2px solid;
-        border-right: $main-color 2px solid;
-        border-top: $medium-color 2px solid;
-        border-bottom: white 2px solid;
+        border-left: $light-color 5px solid;
+        border-right: $main-color 5px solid;
+        border-top: $medium-color 5px solid;
+        border-bottom: white 4px solid;
       }
     }
 
