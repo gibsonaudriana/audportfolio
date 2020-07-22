@@ -119,11 +119,10 @@ footer {
 
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
 @media (max-width: 2000px) and (min-width: 799px) {
-  .logo {
-    display: none; }
-
+  .logo,
   .mobileIntro,
-  .mobileName {
+  .mobileName,
+  .empty {
     display: none; } }
 /* Portrait and Landscape */
 @media (max-width: 800px) {
@@ -179,21 +178,17 @@ footer {
     .homeNav #menu li {
       padding: 1em 1em 1em 2em; }
     .homeNav #menu .homeNav,
-    .homeNav #menu img {
-      margin-bottom: 4em;
-      position: absolute;
-      width: 22vh;
-      height: 22vh;
-      position: fixed;
-      opacity: 70%;
-      pointer-events: none; }
     .homeNav #menu #menu {
       line-height: 0;
       margin-top: 0;
       padding: 0; }
+      .homeNav #menu .homeNav a,
       .homeNav #menu #menu a {
         color: #f65e3c;
         padding: 0; }
+
+  .logo {
+    pointer-events: none; }
 
   section .aboutContainer {
     grid-gap: none; }
@@ -269,9 +264,8 @@ body {
     text-decoration: none; }
     @media (max-width: 800px) {
       .homeNav #menu li {
-        display: flex;
-        flex-flow: wrap;
-        margin: 1.2em;
+        flex-wrap: wrap;
+        margin: 2em;
         border-radius: 55px;
         border-left: #f65e3c 2px solid;
         border-right: #94d1be 2px solid;

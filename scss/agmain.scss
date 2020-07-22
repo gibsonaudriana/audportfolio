@@ -73,9 +73,8 @@ body {
 
     @media (max-width: 800px) {
       li {
-        display: flex;
-        flex-flow: wrap;
-        margin: 1.2em;
+        flex-wrap: wrap;
+        margin: 2em;
         border-radius: 55px;
         border-left: $light-color 2px solid;
         border-right: $main-color 2px solid;
