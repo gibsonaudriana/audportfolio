@@ -70,15 +70,10 @@
   }
 
   .homeNav #menu {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-right: 2em;
-    margin-bottom: 10em;
-    justify-content: space-around;
+    display: inline-block;
+    align-items: center;
     font-size: 7px;
     font-weight: 800;
-    padding: 0 0 0 0;
 
     .current {
       border-bottom: none;

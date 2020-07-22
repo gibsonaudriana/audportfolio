@@ -68,38 +68,25 @@ body {
 
   #menu {
     display: flex;
-    margin-top: 0.5em;
-    padding: 0 1em 0em 1em;
-    font-size: 2.3em;
+    font-size: 2em;
     text-decoration: none;
 
     @media (max-width: 800px) {
       li {
-        margin: 0.5em;
-        margin-top: 2em;
-        background-color: rgba(255, 255, 255, 0.582);
+        display: flex;
+        flex-flow: wrap;
+        margin: 1.2em;
         border-radius: 55px;
-        border-left: $light-color 5px solid;
-        border-right: $main-color 5px solid;
-        border-top: $medium-color 5px solid;
-        border-bottom: white 4px solid;
-        padding: 1em;
+        border-left: $light-color 2px solid;
+        border-right: $main-color 2px solid;
+        border-top: $medium-color 2px solid;
+        border-bottom: white 2px solid;
       }
     }
 
     a {
       color: $light-color;
     }
-  }
-
-  img {
-    width: 100%;
-  }
-
-  #logo {
-    width: 10em;
-    height: 10em;
-    transform: rotate(-10deg);
   }
 }
 
@@ -182,13 +169,7 @@ aside {
     font-family: "serenity", Arial, Helvetica, sans-serif;
 
     @media (max-width: 800px) {
-      color: black;
-      background-color: $main-color;
-      padding: 4px 4px 4px 4px;
-      line-height: 2em;
-      font-weight: 700;
-      letter-spacing: normal;
-      font-family: "serenity", Arial, Helvetica, sans-serif;
+      display: none;
     }
 
     &:hover {
@@ -242,7 +223,9 @@ section {
         "carl carl bio bio";
       grid-gap: none;
       padding: 0px 7px 0px 7px;
+      margin-top: 12em;
       border-left: 1em solid $medium-color;
+      background-color: whitesmoke;
     }
 
     #aboutTitle {
