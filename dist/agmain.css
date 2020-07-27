@@ -147,10 +147,11 @@ footer {
     font-weight: 600;
     font-family: "serenity", "Times New Roman", Times, serif; }
     .mobileIntro h3 {
-      margin-bottom: 1em; }
+      margin-bottom: 0; }
     .mobileIntro h5 {
       letter-spacing: 0.5px;
-      font-style: italic; }
+      font-style: italic;
+      margin-bottom: 1em; }
 
   .mobileName {
     font-weight: 400;
