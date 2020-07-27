@@ -184,7 +184,7 @@ footer {
   .homeNav {
     font-weight: 800; }
     .homeNav #menu {
-      margin-left: 9.5em;
+      margin-left: 10em;
       flex-direction: column; }
     .homeNav .current {
       border-bottom: none; }
@@ -276,9 +276,10 @@ body {
     @media (max-width: 800px) {
       .homeNav #menu li {
         margin: 2px;
-        padding: 7px 7px 7px 7px;
+        padding: 7px 2px 2px 7px;
+        margin-bottom: 5px;
         font-size: 1.5em;
-        border-radius: 55px; } }
+        border-left: 2px #0064c8 solid; } }
     .homeNav #menu a {
       color: #f65e3c; }
 

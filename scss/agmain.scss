@@ -75,9 +75,10 @@ body {
     @media (max-width: 800px) {
       li {
         margin: 2px;
-        padding: 7px 7px 7px 7px;
+        padding: 7px 2px 2px 7px;
+        margin-bottom: 5px;
         font-size: 1.5em;
-        border-radius: 55px;
+        border-left: 2px $medium-color solid;
       }
     }
 
