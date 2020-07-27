@@ -135,14 +135,12 @@ footer {
     color: white;
     font-weight: 300;
     font-style: normal;
-    margin-bottom: none;
-    padding: 1em 1em 1em 1em; }
+    margin-bottom: none; }
 
   .empty {
     display: none; }
 
   .mobileIntro {
-    margin-top: 20px;
     font-size: 12em;
     line-height: 1em;
     text-align: center;
