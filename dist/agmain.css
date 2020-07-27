@@ -184,7 +184,8 @@ footer {
   .homeNav {
     font-weight: 800; }
     .homeNav #menu {
-      margin-left: 19em;
+      margin-left: 50%;
+      margin-right: 50%;
       flex-direction: column; }
     .homeNav .current {
       border-bottom: none; }
