@@ -27,6 +27,12 @@ h4 {
     .dropdown .btn-secondary:hover,
     .dropdown .btn-sm:hover {
       background-color: #0064c8; }
+    @media (max-width: 800px) {
+      .dropdown .btn,
+      .dropdown .btn-secondary,
+      .dropdown .btn-sm {
+        padding: 0;
+        margin: 0; } }
 
 a {
   text-decoration: none;
@@ -176,9 +182,10 @@ footer {
       display: none; }
 
   .homeNav {
-    align-items: center;
-    font-size: 12px;
     font-weight: 800; }
+    .homeNav #menu {
+      margin-left: 19em;
+      flex-direction: column; }
     .homeNav .current {
       border-bottom: none; }
 
@@ -268,12 +275,10 @@ body {
     text-decoration: none; }
     @media (max-width: 800px) {
       .homeNav #menu li {
-        margin: 2em;
-        border-radius: 55px;
-        border-left: #f65e3c 5px solid;
-        border-right: #94d1be 5px solid;
-        border-top: #0064c8 5px solid;
-        border-bottom: white 4px solid; } }
+        margin: 2px;
+        padding: 7px 7px 7px 7px;
+        font-size: 1.5em;
+        border-radius: 55px; } }
     .homeNav #menu a {
       color: #f65e3c; }
 

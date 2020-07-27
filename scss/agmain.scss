@@ -68,17 +68,16 @@ body {
 
   #menu {
     display: flex;
+
     font-size: 2em;
     text-decoration: none;
 
     @media (max-width: 800px) {
       li {
-        margin: 2em;
+        margin: 2px;
+        padding: 7px 7px 7px 7px;
+        font-size: 1.5em;
         border-radius: 55px;
-        border-left: $light-color 5px solid;
-        border-right: $main-color 5px solid;
-        border-top: $medium-color 5px solid;
-        border-bottom: white 4px solid;
       }
     }
 

@@ -80,9 +80,12 @@
   }
 
   .homeNav {
-    align-items: center;
-    font-size: 12px;
     font-weight: 800;
+
+    #menu {
+      margin-left: 19em;
+      flex-direction: column;
+    }
 
     .current {
       border-bottom: none;
